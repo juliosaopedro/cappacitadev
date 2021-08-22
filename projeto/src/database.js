@@ -88,8 +88,16 @@ function curarPokemon(id) {
     }
 
     return `${pokemons[id].nome}: ${pokemons[id].hp}`
+}
 
+function reviverPokemon(id) {
+
+        if (pokemons[id].hp == 0){
+            pokemons[id].hp = 10
+        }
+
+    return `${pokemons[id].nome}: ${pokemons[id].hp}`
 
 }
 
-module.exports = { salvarPokemons, mostrarPokemon, mostrarPokemons, atualizarPokemon, deletarPokemon, batalhaPokemon, curarPokemon }
+module.exports = { salvarPokemons, mostrarPokemon, mostrarPokemons, atualizarPokemon, deletarPokemon, batalhaPokemon, curarPokemon, reviverPokemon }
