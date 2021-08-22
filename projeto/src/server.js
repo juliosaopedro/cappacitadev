@@ -55,4 +55,8 @@ app.post('/pokemons/:id',(req, res) => {
     res.send(dataBase.curarPokemon(req.params.id))
 })
 
+app.post('/pokemons/:id',(req, res) => {
+    res.send(dataBase.reviverPokemon(req.params.id))
+})
+
 app.listen(3003)
