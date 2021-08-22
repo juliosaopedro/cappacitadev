@@ -1,4 +1,5 @@
 # cappacitadev
-Repositório do CappacitaDev - Linguagem conversasional
+
+Linguagem conversasional
 
 Repositório do Desafio 3
