@@ -4,6 +4,6 @@ Linguagem conversasional
 
 Repositório do Desafios
 
-Batalha de Pokemons 
+- Batalha de Pokemons 
 
-Api consulta a filmes
+- Api consulta a filmes
