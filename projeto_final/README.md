@@ -3,7 +3,6 @@
 Api para acessar o site de classificação de filmes THE MOVIE
 
 ## Arquivos 
-
 <br>bootstrap
 <br>axios
 <br>jquery
